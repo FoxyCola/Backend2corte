@@ -32,5 +32,5 @@ app.use('/api/quiz', quizRoutes);
 
 // Iniciar servidor
 app.listen(PORT, () => {
-  console.log(`🚀 Servidor corriendo en http://localhost:${PORT}`);
+  console.log(`🚀 Servidor local deberia estar corriendo en http://localhost:${PORT}`);
 });
