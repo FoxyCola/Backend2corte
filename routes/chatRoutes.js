@@ -6,4 +6,4 @@ const router = express.Router();
 router.post('/', generateChatResponse);
 router.get('/history', getConversationHistory);
 
-export { router };
+export default router;

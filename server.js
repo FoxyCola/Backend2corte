@@ -3,8 +3,8 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
-import chatRoutes from './routes/quizRoutes.js'; // Asegúrate que este archivo existe y está bien exportado
 import quizRoutes from './routes/quizRoutes.js'; // Si son distintos, cámbialos; si es el mismo, uno sobra
+import chatRoutes from './routes/chatRoutes.js'; // Asegúrate que este archivo existe y está bien exportado
 
 dotenv.config();
 
